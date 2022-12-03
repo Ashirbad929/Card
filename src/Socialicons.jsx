@@ -2,7 +2,7 @@
 import {FaFacebook} from "react-icons/fa";
 const Socialicons = () => {
     return ( 
-        <div>
+        <div className="sicons">
             <a className="icons" href="#"><FaFacebook/></a>
             <a className="icons" href="#"><FaFacebook/></a>
             <a className="icons" href="#"><FaFacebook/></a>

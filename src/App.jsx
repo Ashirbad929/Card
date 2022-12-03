@@ -4,7 +4,7 @@ import Intrests from "./Intrests";
 import Socialicons from "./Socialicons";
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <Des/>
       <Info />
       <Intrests />

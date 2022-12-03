@@ -1,11 +1,36 @@
 body{
-  background-color: rgb(52, 48, 48);
+  background-color: rgb(0, 0, 0);
 }
 .icons{
-  color: black;
+  color: rgb(238, 235, 235);
   font-size: xx-large;
 }
 .img{
   color: whitesmoke;
-  height: 30vh;
+  height: 24vh;
+  align-self: center;
+  align-items: center;
+}
+.app{
+  display: flex;
+  color: aliceblue;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto 5%;
+  border: 2px solid bisque;
+}
+.des{
+  display: flex;
+  
+  flex-direction: column;
+  align-self: center;
+}
+.website{
+  display: flex;
+  align-self: center;
+}
+.sicons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
