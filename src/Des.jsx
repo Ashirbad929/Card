@@ -4,6 +4,7 @@ const Des = () => {
         <div className="des">
             <img className="img" src={person} alt="asdasd" />
             <h1>Ashirbad Behera</h1>
+            <h2>Programmer/Developer</h2>
             <h4 className="website">Ashirbad929.website</h4>
         </div>
      );

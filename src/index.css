@@ -1,22 +1,28 @@
 body{
-  background-color: rgb(0, 0, 0);
+ margin: 0;
+ background-color: rgb(88, 87, 87);
 }
 .icons{
   color: rgb(238, 235, 235);
   font-size: xx-large;
 }
 .img{
-  color: whitesmoke;
-  height: 24vh;
+  color:white;
+  height:12em;
   align-self: center;
-  align-items: center;
+  
 }
 .app{
   display: flex;
+  margin: 0  3em;
+ 
+  margin-top: 1em;
   color: aliceblue;
   flex-direction: column;
   justify-content: center;
-  margin: auto 5%;
+  background-color: black;
+  font-size: 1vmax;
+  
   border: 2px solid bisque;
 }
 .des{
@@ -33,4 +39,27 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-size:medium;
+  padding: 0;
+  margin: 2em;
+
+
+}
+.sicons a{
+ padding: 0 1rem;
+
+
+}
+.info{
+  padding: 0 2em;
+}
+.intrests{
+  padding: 0 2em;
+}
+.about{
+  
+  box-shadow: 0 1px rgb(193, 193, 165);
+}
+.ihead{
+  box-shadow: 0 1px rgb(193, 193, 165);
 }
