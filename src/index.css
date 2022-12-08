@@ -1,6 +1,8 @@
 body{
  margin: 0;
  background-color: rgb(88, 87, 87);
+ display: flex;
+ justify-content: center;
 }
 .icons{
   color: rgb(238, 235, 235);
@@ -8,7 +10,7 @@ body{
 }
 .img{
   color:white;
-  height:12em;
+  height:15vh;
   align-self: center;
   background-color: whitesmoke;
   
@@ -18,11 +20,13 @@ body{
   margin: 0  3em;
  
   margin-top: 1em;
+  max-width: 500px;
   color: aliceblue;
   flex-direction: column;
   justify-content: center;
   background-color: black;
   font-size: 1vmax;
+  max-height: 700px;
   
   border: 2px solid bisque;
 }
@@ -31,10 +35,35 @@ body{
   
   flex-direction: column;
   align-self: center;
+  margin: 0 auto;
+  
+}
+.name{
+  margin: 0;
+}
+
+
+.llinks{
+  display: flex;
+  margin: 1em 0;
+  padding: 0;
+  justify-content: space-between;
+  
+}
+.llinks a{
+  color: aliceblue;
+  font-size: x-large;
+  
+}
+.llinks a:hover{
+  color: rgb(152, 157, 164);
+  
+  
 }
 .website{
   display: flex;
   align-self: center;
+  margin: 0;
 }
 .sicons{
   display: flex;
@@ -42,7 +71,13 @@ body{
   justify-content: center;
   font-size:medium;
   padding: 0;
-  margin: 2em;
+  margin: 1em;
+
+
+}
+.sicons a:hover{
+  color: rgb(124, 122, 120);
+  
 
 
 }
