@@ -3,6 +3,7 @@ body{
  background-color: rgb(88, 87, 87);
  display: flex;
  justify-content: center;
+ 
 }
 .icons{
   color: rgb(238, 235, 235);
@@ -19,7 +20,7 @@ body{
   display: flex;
   margin: 0 ;
  
-  margin-top: 1em;
+  margin-top: 10vh;
 
   max-width: 500px;
   color: aliceblue;
@@ -27,7 +28,7 @@ body{
   justify-content: center;
   background-color: black;
   font-size: 1vmax;
-  max-height: 700px;
+  max-height: 700vh;
   
   border: 2px solid bisque;
 }
