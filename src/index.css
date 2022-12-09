@@ -17,9 +17,10 @@ body{
 }
 .app{
   display: flex;
-  margin: 0  3em;
+  margin: 0 ;
  
   margin-top: 1em;
+
   max-width: 500px;
   color: aliceblue;
   flex-direction: column;
@@ -34,27 +35,57 @@ body{
   display: flex;
   
   flex-direction: column;
-  align-self: center;
-  margin: 0 auto;
+  
+  align-items: center;
+  
+  
+ 
   
 }
 .name{
   margin: 0;
+  color: whitesmoke;
 }
+
 
 
 .llinks{
   display: flex;
   margin: 1em 0;
+  flex-direction: row;
   padding: 0;
   justify-content: space-between;
   
 }
-.llinks a{
+
+.llinks button{
+  
+  
   color: aliceblue;
-  font-size: x-large;
+ 
+  padding:0 1em;
+  margin: 0 2em;
   
 }
+.llinks button:hover{
+  
+  
+  color: rgb(20, 126, 219);
+ 
+ 
+}
+.llinks button a{
+  
+  
+  text-decoration: none;
+
+  
+}
+.ll{
+  display: flex;
+  color:black;
+}
+
 .llinks a:hover{
   color: rgb(152, 157, 164);
   
@@ -64,6 +95,7 @@ body{
   display: flex;
   align-self: center;
   margin: 0;
+  color: wheat;
 }
 .sicons{
   display: flex;
